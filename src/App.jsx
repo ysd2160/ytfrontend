@@ -17,7 +17,7 @@ import Search from "./pages/Search"
 
 import EditTweet from "./pages/Edittweet"
 import EditProfile from "./pages/Edit"
-import Edit from "./pages/editVideo"
+import Edit from "./pages/EditVideo"
 function App() {
   const router = createBrowserRouter([
     {
