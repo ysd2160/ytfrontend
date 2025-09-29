@@ -11,11 +11,13 @@ import VideoCreate from "./pages/VideoCreate"
 import History from "./pages/History"
 import Profile from "./pages/Profile"
 import Tweets from "./pages/Tweets"
-import Edit from "./pages/Edit"
+
 
 import Search from "./pages/Search"
-import EditVideo from "./pages/editVideo"
+
 import EditTweet from "./pages/Edittweet"
+import EditProfile from "./pages/Edit"
+import Edit from "./pages/editVideo"
 function App() {
   const router = createBrowserRouter([
     {
@@ -69,7 +71,7 @@ function App() {
            {
           path: "/edit",
           element: (
-            <ProtectedRoutes><Edit /></ProtectedRoutes>
+            <ProtectedRoutes><EditProfile/></ProtectedRoutes>
           )
         },
          {
@@ -81,7 +83,7 @@ function App() {
         {
 
          path:"/edit/video/:id",
-          element:<ProtectedRoutes><EditVideo/></ProtectedRoutes>
+          element:<ProtectedRoutes><Edit/></ProtectedRoutes>
         },
          {
 
