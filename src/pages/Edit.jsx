@@ -17,7 +17,7 @@ const EditProfile = () => {
   const [loading, setLoading] = useState(false);
   const [msg, setMsg] = useState("");
 
-  // 🔹 Update FullName + Email
+ 
   const handleInfoSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -45,7 +45,6 @@ const EditProfile = () => {
     }
   };
 
-  // 🔹 Update Avatar
   const handleAvatarSubmit = async (e) => {
     e.preventDefault();
     if (!avatar) return setMsg("Please select an avatar");

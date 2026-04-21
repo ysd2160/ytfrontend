@@ -51,7 +51,7 @@ const Home = () => {
 
   return (
          <div className="flex-1 p-4 sm:p-6 lg:p-8 bg-black min-h-screen text-white overflow-y-auto"> 
-        <button onClick={refreshToken}>refresh</button>
+        <button onClick={refreshToken}></button>
 
       {/* Video Grid */}
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
